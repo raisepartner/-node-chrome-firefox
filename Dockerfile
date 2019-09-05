@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:lts
 
 # install rsync
 RUN apt-get update \
